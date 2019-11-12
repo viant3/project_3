@@ -50,7 +50,6 @@ class App extends Component {
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/saved" component={Saved} />
-          <Route component={NoMatch} />
           <Navbar />
         <Landing />
         </Switch>
