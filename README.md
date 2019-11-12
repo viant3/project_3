@@ -1,2 +1,2 @@
-# project_3
-Project 3 with login
+# Google Book Search
+Google Book Search Homework Repo w/ Heroku deployment
