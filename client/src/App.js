@@ -55,7 +55,7 @@ class App extends Component {
         <Landing />
         </Switch>
         <Switch>
-              <PrivateRoute exact path="/dashboard" component={search} />
+              <PrivateRoute exact path="/dashboard" component={Search} />
             </Switch>
       </div>
     </Router>
