@@ -46,7 +46,7 @@ class App extends Component {
         <Nav />
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/Search" component={Search} />
+          <Route exact path="/search" component={Search} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/saved" component={Saved} />
@@ -55,7 +55,7 @@ class App extends Component {
         <Landing />
         </Switch>
         <Switch>
-              <PrivateRoute exact path="/dashboard" component={Dashboard} />
+              <PrivateRoute exact path="/dashboard" component={search} />
             </Switch>
       </div>
     </Router>
