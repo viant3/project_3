@@ -12,7 +12,6 @@
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install --prefix client",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
