@@ -87,7 +87,7 @@ class Search extends Component {
       <Dashboard />
         <Row>
       
-        <img src="nsa.png" alt="NSA" class="nsa"></img>
+        <img src="nsa.png" alt="NSA" className="nsa"></img>
           
         </Row>
         <Row>
