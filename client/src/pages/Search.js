@@ -95,7 +95,7 @@ class Search extends Component {
             <h4>Search</h4>
             <form>
               <div className="form-group">
-                <label htmlFor="bookSearch">Book</label>
+                <label htmlFor="bookSearch">Documents</label>
                 <input
                   type="text"
                   className="form-control"
