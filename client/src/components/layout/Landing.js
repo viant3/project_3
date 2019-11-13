@@ -5,8 +5,8 @@ import "./style.css";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper matrix" >
-        <div className="row matrix">
+      <div style={{ height: "100%" }} className="container valign-wrapper matrix" >
+        <div className="row">
           <div className="col s12 center-align">
             <br />
             <div className="col s6">
@@ -17,7 +17,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                className="btn btn-large waves-effect waves-light hoverable black accent-3 green-text"
               >
                 Register
               </Link>
@@ -30,7 +30,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large btn-flat waves-effect white black-text"
+                className="btn btn-large btn-flat waves-effect black green-text"
               >
                 Log In
               </Link>
