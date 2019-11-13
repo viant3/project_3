@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
 import Nav from "../components/Nav";
-import Dashboard from "../components/Dashboard";
+import Dashboard from "../components/dashboard";
 
 class Search extends Component {
 
