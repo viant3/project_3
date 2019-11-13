@@ -3,6 +3,7 @@ import { Row, Container } from "../components/Grid";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
 import Nav from "../components/Nav";
+import Dashboard from "../components/dashboard/Dashboard";
 import "./style.css";
 
 class Saved extends Component {
@@ -38,6 +39,7 @@ class Saved extends Component {
     return (
       <Container>
         <Nav />
+        <Dashboard />
         <Row>
         <div style={{ height: "35vh", width: "100vw"}} className="nsa"></div>
         </Row>

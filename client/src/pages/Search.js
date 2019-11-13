@@ -117,7 +117,7 @@ class Search extends Component {
               <h4>Results for {this.state.searched}</h4>
             )}
             {!this.state.books.length ? (
-              <h6 className="text-center">No books to display currently</h6>
+              <h6 className="text-center">No Documents to display currently</h6>
             ) : (
                 <BookList>
                   {this.state.books.map(book => {
