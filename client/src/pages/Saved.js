@@ -35,6 +35,7 @@ class Saved extends Component {
   render() {
     return (
       <Container>
+        <Nav />
         <Row>
           <div className="col rounded text-center bg-success mt-4 mb-4 p-4">
             <h1>Saved Books</h1>
