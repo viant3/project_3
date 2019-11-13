@@ -86,8 +86,8 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
-      <div style={{ height: "30vh", width: "40vw"}} className="nsa"></div>  
-      <h4 className="center">Document Search</h4>
+      <div style={{ height: "30vh", width: "30vw"}} className="nsa"></div><br></br>
+      <p className="center">Document Search</p>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">
