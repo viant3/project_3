@@ -87,7 +87,7 @@ class Search extends Component {
       <Dashboard />
         <Row>
       
-           <div style={{ height: "15vh", width: "15vw"}} className="nsa"></div>
+        <img src="nsa.png" alt="NSA" class="nsa"></img>
           
         </Row>
         <Row>
