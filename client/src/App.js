@@ -51,7 +51,7 @@ class App extends Component {
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
 
-              <Navbar />
+  
               <Landing />
             </Switch>
             <Switch>
