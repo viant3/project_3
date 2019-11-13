@@ -80,7 +80,9 @@ class Search extends Component {
 
   render() {
     return (
-      <Nav></Nav>
+      <Div>
+      <Nav />
+      </Div>
       <Container>
       
         <Row>
