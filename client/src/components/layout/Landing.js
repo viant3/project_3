@@ -5,15 +5,11 @@ import "./style.css";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper matrix">
+      <div style={{ height: "75vh" }} className="container valign-wrapper ">
         <div className="row">
-          <div className="col s12 center-align">
-        
-            <p className="flow-text grey-text text-darken-1">
-             
-            </p>
+          <div className="col s12 center-align matrix">
             <br />
-            <div className="col s6">
+            <div className="col s6 matrix">
               <Link
                 to="/register"
                 style={{
@@ -26,7 +22,7 @@ class Landing extends Component {
                 Register
               </Link>
             </div>
-            <div className="col s6">
+            <div className="col s6 matrix">
               <Link
                 to="/login"
                 style={{
