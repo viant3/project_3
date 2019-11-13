@@ -2,3 +2,7 @@
     background-image: url('nsa.jpg');
   margin: 0, auto;
 }
+
+.center {
+    text-align: center;
+}
