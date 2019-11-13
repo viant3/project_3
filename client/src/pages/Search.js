@@ -12,18 +12,18 @@ class Search extends Component {
     books: [],
     bookSearch: "",
     savedBooks: [],
-    // screenWidth: window.innerWidth,
+    screenWidth: window.innerWidth,
     searched: ""
   };
 
   componentDidMount() {
     this.loadSavedBooks();
-    // window.addEventListener('resize', this.updateDimensions);
+    window.addEventListener('resize', this.updateDimensions);
   }
 
-  // updateDimensions = () => {
-  //   this.setState({screenWidth: window.innerWidth}, () => console.log(this.state.screenWidth))
-  // }
+  updateDimensions = () => {
+    this.setState({screenWidth: window.innerWidth}, () => console.log(this.state.screenWidth))
+  }
 
   loadSavedBooks = () => {
     API.getSavedBooks()
@@ -135,7 +135,7 @@ class Search extends Component {
                         clickEvent={this.state.savedBooks.indexOf(book.id) > -1
                           ? this.deleteSavedBook
                           : this.handleSave}
-                        // screenWidth={this.state.screenWidth}
+                        screenWidth={this.state.screenWidth}
                       />
                     );
                   })}
