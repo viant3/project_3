@@ -3,6 +3,7 @@ import { Row, Container } from "../components/Grid";
 import Button from "../components/Button";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
+import Nav from "../components/Nav";
 
 class Search extends Component {
 
@@ -79,6 +80,7 @@ class Search extends Component {
 
   render() {
     return (
+      <Nav />
       <Container>
         <Row>
           <div className="col rounded text-center bg-info mt-4 p-4">
