@@ -1,6 +1,6 @@
 .matrix {
     background-image: url('matrix.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center; 
-    position: relative;
+    position: relative; */
 }
