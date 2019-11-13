@@ -5,7 +5,7 @@ import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
 import Nav from "../components/Nav";
 import Dashboard from "../components/dashboard/Dashboard";
-
+import "./style.css";
 class Search extends Component {
 
   state = {
@@ -87,7 +87,7 @@ class Search extends Component {
       <Dashboard />
         <Row>
           <div className="col rounded text-center bg-info mt-4 p-4">
-            <h1>Google Book Search</h1>
+           <div style={{ height: "15vh", width: "15vw"}} className="nsa"></div>
           </div>
         </Row>
         <Row>
