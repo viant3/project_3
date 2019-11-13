@@ -80,8 +80,9 @@ class Search extends Component {
 
   render() {
     return (
-      <Nav />
+      
       <Container>
+        <Nav />
         <Row>
           <div className="col rounded text-center bg-info mt-4 p-4">
             <h1>Google Book Search</h1>
