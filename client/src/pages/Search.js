@@ -4,7 +4,6 @@ import Button from "../components/Button";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
 import Nav from "../components/Nav";
-import Dashboard from "../components/dashboard";
 
 class Search extends Component {
 
@@ -84,7 +83,6 @@ class Search extends Component {
     
       <Container>
       <Nav />
-      <Dashboard />
         <Row>
           <div className="col rounded text-center bg-info mt-4 p-4">
             <h1>Google Book Search</h1>
