@@ -89,7 +89,6 @@ class Search extends Component {
       <Dashboard />
         <Row>
       <div style={{ height: "35vh", width: "100vw"}} className="nsa"></div>
-      <p className="center">Document Search</p>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">
