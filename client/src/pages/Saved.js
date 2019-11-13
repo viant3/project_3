@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Row, Container } from "../components/Grid";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
+import Nav from "../components/Nav";
 
 class Saved extends Component {
 
