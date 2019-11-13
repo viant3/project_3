@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import { BookList, BookListItem } from "../BookList";
 import Nav from "../Nav";
+import { Row, Container } from "../Grid";
+import Button from "../Button";
 
 class Dashboard extends Component {
   onLogoutClick = e => {
