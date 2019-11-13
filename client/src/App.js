@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
-import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
@@ -27,7 +26,7 @@ if (localStorage.jwtToken) {
   const decoded = jwt_decode(token);
   // Set user and isAuthenticated
   store.dispatch(setCurrentUser(decoded));
-// Check for expired token
+  // Check for expired token
   const currentTime = Date.now() / 1000; // to get in milliseconds
   if (decoded.exp < currentTime) {
     // Logout user
@@ -41,26 +40,29 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-    <Router>
-      <div className="App">
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/search" component={Search} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/saved" component={Saved} />
-          <Navbar />
-        <Landing />
-        </Switch>
-        <Switch>
+        <Router>
+          <div className="App">
+            <Switch>
+              <Route exact path="/search" component={Search} />
+              <Route exact path="/saved" component={Saved} />
+            </Switch>
+            <Switch>
+              <Route exact path="/" component={Landing} />
+              <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} />
+
+              <Navbar />
+              <Landing />
+            </Switch>
+            <Switch>
+              <Nav />
               <PrivateRoute exact path="/dashboard" component={Search} />
             </Switch>
-      </div>
-    </Router>
-    </Provider>
-  );
-}
+          </div>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;
