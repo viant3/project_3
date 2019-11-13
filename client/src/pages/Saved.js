@@ -39,7 +39,7 @@ class Saved extends Component {
       <Container>
         <Nav />
         <Row>
-        <div style={{ height: "30vh", width: "100vw"}} className="nsa"></div>
+        <div style={{ height: "35vh", width: "100vw"}} className="nsa"></div>
         </Row>
         <Row>
           <div className="col border border-rounded p-3 mb-4">
