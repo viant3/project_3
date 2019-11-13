@@ -1,3 +1,6 @@
 .matrix {
-    background: color url('matrix.jpg');
+    background-image: url('matrix.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
 }
