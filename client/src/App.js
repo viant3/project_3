@@ -43,6 +43,7 @@ class App extends Component {
         <Router>
           <div className="App">
             <Switch>
+            <Nav />
               <Route exact path="/search" component={Search} />
               <Route exact path="/saved" component={Saved} />
             </Switch>
@@ -55,7 +56,7 @@ class App extends Component {
               <Landing />
             </Switch>
             <Switch>
-              <Nav />
+            <Nav />
               <PrivateRoute exact path="/dashboard" component={Search} />
             </Switch>
           </div>
