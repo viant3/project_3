@@ -8,7 +8,7 @@ class Saved extends Component {
 
   state = {
     savedBooks: [],
-    screenWidth: window.innerWidth
+    // screenWidth: window.innerWidth
   }
 
   componentDidMount() {
@@ -16,9 +16,9 @@ class Saved extends Component {
     window.addEventListener('resize', this.updateDimensions);
   }
 
-  updateDimensions = () => {
-    this.setState({screenWidth: window.innerWidth}, () => console.log(this.state.screenWidth))
-  }
+  // updateDimensions = () => {
+  //   this.setState({screenWidth: window.innerWidth}, () => console.log(this.state.screenWidth))
+  // }
 
   loadSavedBooks = () => {
     API.getSavedBooks()
@@ -61,7 +61,7 @@ class Saved extends Component {
                         href={book.href}
                         saved={true}
                         clickEvent={this.deleteSavedBook}
-                        screenWidth={this.state.screenWidth}
+                        // screenWidth={this.state.screenWidth}
                       />
                     );
                   })}
