@@ -41,18 +41,14 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          <div className="App">
+          <div className="App">    
             <Switch>
-              <Route exact path="/search" component={Search} />
-              <Route exact path="/saved" component={Saved} />
-            </Switch>
-            <Switch>
-              <Route exact path="/" component={Landing} />
-              <Route exact path="/register" component={Register} />
-              <Route exact path="/login" component={Login} />
-            </Switch>
-            <Switch>
+            <PrivateRoute exact path="/search" component={Search} />
+              <PrivateRoute exact path="/saved" component={Saved} />
               <PrivateRoute exact path="/dashboard" component={Search} />
+              <PrivateRoute exact path="/" component={Landing} />
+              <PrivateRoute exact path="/register" component={Register} />
+              <PrivateRoute exact path="/login" component={Login} />
             </Switch>
           </div>
         </Router>
