@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import Nav from "./components/Nav";
+
 class Dashboard extends Component {
   onLogoutClick = e => {
     e.preventDefault();
@@ -10,7 +12,9 @@ class Dashboard extends Component {
 render() {
     const { user } = this.props.auth;
 return (
+  
       <div style={{ height: "75vh" }} className="container valign-wrapper">
+        <Nav></Nav>
         <div className="row">
           <div className="col s12 center-align">
             <h4>
