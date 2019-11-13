@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
-import { BookList, BookListItem } from "../components/BookList";
-import Nav from "../components/Nav";
+import { BookList, BookListItem } from "../BookList";
+import Nav from "../Nav";
 
 class Dashboard extends Component {
   onLogoutClick = e => {
