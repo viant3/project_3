@@ -43,8 +43,8 @@ class App extends Component {
         <Router>
           <div className="App">    
             <Switch>
-            <PrivateRoute exact path="/search" component={Search} />
-              <PrivateRoute exact path="/saved" component={Saved} />
+            <Route exact path="/search" component={Search} />
+              <Route exact path="/saved" component={Saved} />
               <PrivateRoute exact path="/dashboard" component={Search} />
               <PrivateRoute exact path="/" component={Landing} />
               <PrivateRoute exact path="/register" component={Register} />
