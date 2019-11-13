@@ -4,7 +4,7 @@ import React from "react";
 function Nav() {
   return (
     <nav className="navbar navbar-expand navbar-default">
-      <a className="navbar-brand" href="/">Book Search</a>
+      <a className="navbar-brand" href="/search">NSA Search</a>
 
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
