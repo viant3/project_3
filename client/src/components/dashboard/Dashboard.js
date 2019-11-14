@@ -21,6 +21,7 @@ return (
               style={{
                 width: "100px",
                 borderRadius: ".5px",
+                letterSpacing: ".5px",
                 marginTop: "1rem"
               }}
               onClick={this.onLogoutClick}
