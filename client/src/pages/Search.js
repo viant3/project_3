@@ -90,7 +90,7 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
-     <Col><div style={{ height: "35vh", width: "35vw"}} className="nsa"></div></Col><Col></Col><Col><div style={{ height: "35vh", width: "35vw"}} className="dod"></div></Col>
+     <Col className="nsa"></Col><Col className="dod"></Col>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">
