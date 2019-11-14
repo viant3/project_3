@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Container, Col } from "../components/Grid";
+import { Row, Container } from "../components/Grid";
 import Button from "../components/Button";
 import { BookList, BookListItem } from "../components/BookList";
 import API from "../utils/API";
@@ -90,7 +90,7 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
-     <Col className="nsa"></Col><Col className="dod"></Col>
+      <div style={{ height: "35vh", width: "40vw"}} className="nsa"></div><div style={{ height: "35vh", width: "35vw"}} className="dod"></div>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">

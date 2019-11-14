@@ -1,13 +1,10 @@
 .nsa {
     background-image: url('nsa.png');
     background-repeat: no-repeat;
-    text-align: center;
-    margin: 0%, auto;
 }
 
 .dod {
     background-image: url('dod.png');
     background-repeat: no-repeat;
-    text-align: center;
-    margin: 0%, auto;
+  
 }
