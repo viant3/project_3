@@ -17,7 +17,7 @@ return (
           <div className="col s12 center-align">
               <b>HELLO,</b> {user.name.split(" ")[0]}
               
-               <button
+               {/* <button
               style={{
                 width: "100px",
                 borderRadius: ".5px",
@@ -28,7 +28,7 @@ return (
               className="btn  waves-effect waves-light hoverable gray accent-3"
             >
               Logout
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

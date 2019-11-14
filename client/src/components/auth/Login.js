@@ -13,16 +13,16 @@ class Login extends Component {
       errors: {}
     };
   }
-componentWillReceiveProps(nextProps) {
-    if (nextProps.auth.isAuthenticated) {
-      this.props.history.push("/dashboard"); // push user to dashboard when they login
-    }
-if (nextProps.errors) {
-      this.setState({
-        errors: nextProps.errors
-      });
-    }
-  }
+// componentWillReceiveProps(nextProps) {
+//     if (nextProps.auth.isAuthenticated) {
+//       this.props.history.push("/dashboard"); // push user to dashboard when they login
+//     }
+// if (nextProps.errors) {
+//       this.setState({
+//         errors: nextProps.errors
+//       });
+//     }
+//   }
 onChange = e => {
     this.setState({ [e.target.id]: e.target.value });
   };
