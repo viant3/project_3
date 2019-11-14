@@ -1,7 +1,11 @@
 .nsa {
+    background-image: url('nsa.png');
+    background-repeat: no-repeat;
 float: left;
 }
 
 .dod {
+    background-image: url('dod.png');
+    background-repeat: no-repeat;
 float: right;
 }
