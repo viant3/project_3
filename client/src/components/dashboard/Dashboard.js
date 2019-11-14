@@ -16,19 +16,6 @@ return (
         <div className="row">
           <div className="col s12 center-align">
               <b>HELLO,</b> {user.name.split(" ")[0]}
-              
-               {/* <button
-              style={{
-                width: "100px",
-                borderRadius: ".5px",
-                letterSpacing: ".5px",
-                marginTop: "1rem"
-              }}
-              onClick={this.onLogoutClick}
-              className="btn  waves-effect waves-light hoverable gray accent-3"
-            >
-              Logout
-            </button> */}
           </div>
         </div>
       </div>
