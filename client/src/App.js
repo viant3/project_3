@@ -34,7 +34,7 @@ if (localStorage.jwtToken) {
 //     // Redirect to login
 //     // window.location.href = "/login";
 //   }
-// }
+}
 
 class App extends Component {
   render() {
