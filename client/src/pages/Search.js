@@ -6,6 +6,8 @@ import API from "../utils/API";
 import Nav from "../components/Nav";
 import Dashboard from "../components/dashboard/Dashboard";
 import "./style.css";
+import "./nsa.png";
+import "./dod.png";
 
 
 class Search extends Component {
@@ -88,7 +90,7 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
-      <div style={{ height: "35vh", width: "100vw"}}><img className="nsa" src="nsa.png"></img>DOCUMENT SEARCH<img className="dod" src="dod.png"></img></div>
+      <div style={{ height: "35vh", width: "100vw"}}><img className="nsa" src="./nsa.png"></img><img className="dod" src="./dod.png"></img></div>
         </Row>
         <Row>
           <div className="col rounded bg-light mb-4 mt-4 p-4">
