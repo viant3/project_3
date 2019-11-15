@@ -16,7 +16,20 @@ return (
       <div className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-           <h6>HELLO, {user.name.split(" ")[0]}</h6>
+           <h6>HELLO, {user.name.split(" ")[0]}
+           <button
+              style={{
+                width: "100px",
+                borderRadius: "1px",
+              }}
+              onClick={this.onLogoutClick}
+              className="btn waves-effect waves-light hoverable gray accent-3"
+            >
+              Logout
+            </button>
+           
+           
+           </h6>
               <img src={NSA} className="img-fluid"  />
           </div>
         </div>
