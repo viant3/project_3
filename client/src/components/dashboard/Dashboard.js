@@ -18,8 +18,8 @@ return (
         <div className="row">
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
-           <Redirect
-                to="/"
+           <Link
+                to="/register"
                 style={{
                   width: "140px",
                   borderRadius: "3px",
@@ -29,7 +29,7 @@ return (
                 className="waves-effect waves-light hoverable gray accent-3"
                 >
                 Log Out
-              </Redirect>
+              </Link>
            <br />
               <img src={NSA} className="img-fluid"  />
           </div>
