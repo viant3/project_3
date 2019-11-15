@@ -16,7 +16,7 @@ return (
       <div className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-              <b>HELLO,</b> {user.name.split(" ")[0]}<br />
+             <h4><b>HELLO, {user.name.split(" ")[0]}</b></h4>
               <img src={NSA} className="img-fluid"  />
           </div>
         </div>
