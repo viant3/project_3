@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import "./pages/style.css";
+import NSA from "./pages/nsa.png"
 
 
 class Dashboard extends Component {
@@ -12,10 +14,11 @@ class Dashboard extends Component {
 render() {
     const { user } = this.props.auth;
 return (
-      <div style={{ height: "10vh" }} className="container valign-wrapper">
+      <div className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-              <b>HELLO,</b> {user.name.split(" ")[0]}
+              <b>HELLO,</b> {user.name.split(" ")[0]}<br />
+              <div className="nsa"><img src={NSA} className="img-fluid"  /></div> 
           </div>
         </div>
       </div>
