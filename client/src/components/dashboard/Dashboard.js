@@ -23,7 +23,8 @@ return (
                 borderRadius: "1px",
                 marginBottom: "10px"
               }}
-              onClick={this.onLogoutClick}
+              onClick={this.onLogoutClick, this.props.history.push("/")}
+              
               className="waves-effect waves-light hoverable gray accent-3"
             >
               Logout
