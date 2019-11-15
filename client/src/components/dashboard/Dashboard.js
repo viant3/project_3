@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
@@ -18,7 +18,7 @@ return (
         <div className="row">
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
-           <Link
+           <Redirect
                 to="/"
                 style={{
                   width: "140px",
@@ -29,7 +29,7 @@ return (
                 className="waves-effect waves-light hoverable gray accent-3"
                 >
                 Log Out
-              </Link>
+              </Redirect>
            <br />
               <img src={NSA} className="img-fluid"  />
           </div>
