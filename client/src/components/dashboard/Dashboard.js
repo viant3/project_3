@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
-import "../pages/style.css";
-import NSA from "../pages/nsa.png"
+import "../../pages/style.css";
+import NSA from "../../pages/nsa.png"
 
 
 class Dashboard extends Component {
