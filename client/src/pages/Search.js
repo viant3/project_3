@@ -89,7 +89,7 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
-          <img src={NSA} className="img-fluid"  />
+          <img src={NSA} className="img-fluid nsa"  />
      
         </Row>
         <Row>

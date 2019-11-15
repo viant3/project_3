@@ -5,6 +5,7 @@ import API from "../utils/API";
 import Nav from "../components/Nav";
 import Dashboard from "../components/dashboard/Dashboard";
 import "./style.css";
+import NSA from "./nsa.png"
 
 class Saved extends Component {
 
@@ -41,7 +42,7 @@ class Saved extends Component {
         <Nav />
         <Dashboard />
         <Row>
-        <div style={{ height: "35vh", width: "100vw"}} className="nsa"></div>
+        <img src={NSA} className="img-fluid nsa"  />
         </Row>
         <Row>
           <div className="col border border-rounded p-3 mb-4">
