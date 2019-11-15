@@ -42,9 +42,6 @@ class Saved extends Component {
         <Nav />
         <Dashboard />
         <Row>
-        <div className="nsa"><img src={NSA} className="img-fluid"  /></div> 
-        </Row>
-        <Row>
           <div className="col border border-rounded p-3 mb-4">
             <h4>Saved Documents</h4>
             {!this.state.savedBooks.length ? (
