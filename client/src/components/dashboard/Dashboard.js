@@ -17,8 +17,17 @@ return (
         <div className="row">
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
-           <button class="waves-effect waves-light hoverable grey " style="width: 70px; border-radius: 1px;">Logout</button><br />
-           
+           <button
+              style={{
+                width: "100px",
+                borderRadius: "1px",
+              }}
+              onClick={this.onLogoutClick}
+              className="waves-effect waves-light hoverable gray accent-3"
+            >
+              Logout
+            </button><br />
+          
               <img src={NSA} className="img-fluid"  />
           </div>
         </div>
