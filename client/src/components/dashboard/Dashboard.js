@@ -19,8 +19,9 @@ return (
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
            <button
               style={{
-                width: "100px",
+                width: "60px",
                 borderRadius: "1px",
+                marginBottom: "10px"
               }}
               onClick={this.onLogoutClick}
               className="waves-effect waves-light hoverable gray accent-3"
