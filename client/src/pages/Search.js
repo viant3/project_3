@@ -6,8 +6,7 @@ import API from "../utils/API";
 import Nav from "../components/Nav";
 import Dashboard from "../components/dashboard/Dashboard";
 import "./style.css";
-import "./nsa.png";
-import "./dod.png";
+
 
 
 class Search extends Component {
@@ -90,6 +89,7 @@ class Search extends Component {
       <Nav />
       <Dashboard />
         <Row>
+          <img src="nsa.png"></img>
       <div style={{ height: "35vh", width: "40vw"}} className="nsa"></div>
         </Row>
         <Row>
