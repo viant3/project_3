@@ -1,9 +1,6 @@
-.nsa {
-margin: 0, auto;
-}
-
-.dod {
-    background-image: url('dod.png');
-    background-repeat: no-repeat;
-  
-}
+.nsa{ 
+    Display: flex;
+    Width: 100vw; 
+    Align-Items: center;
+    Justify-Content: centre;
+    }
