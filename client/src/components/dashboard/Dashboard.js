@@ -18,7 +18,7 @@ return (
         <div className="row">
           <div className="col s12 center-align">
               <b>HELLO,</b> {user.name.split(" ")[0]}<br />
-              <div className="nsa"><img src={NSA} className="img-fluid"  /></div> 
+              <img src={NSA} className="img-fluid"  />
           </div>
         </div>
       </div>
