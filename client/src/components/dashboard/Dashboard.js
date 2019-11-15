@@ -25,7 +25,7 @@ return (
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                onClick={this.onLogoutClick}
+                // onClick={this.onLogoutClick}
                 className="waves-effect waves-light hoverable gray accent-3"
                 >
                 Log Out
