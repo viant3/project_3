@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
@@ -17,19 +18,19 @@ return (
         <div className="row">
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
-           <button
-              style={{
-                width: "60px",
-                borderRadius: "1px",
-                marginBottom: "10px"
-              }}
-              onClick={this.onLogoutClick, this.props.history.push("/")}
-              
-              className="waves-effect waves-light hoverable gray accent-3"
-            >
-              Logout
-            </button><br />
-          
+           <Link
+                to="/"
+                style={{
+                  width: "140px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px"
+                }}
+                onClick={this.onLogoutClick}
+                className="waves-effect waves-light hoverable gray accent-3"
+                >
+                Log Out
+              </Link>
+           <br />
               <img src={NSA} className="img-fluid"  />
           </div>
         </div>
