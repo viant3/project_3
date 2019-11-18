@@ -44,6 +44,7 @@ this.props.registerUser(newUser, this.props.history);
 render() {
     const { errors } = this.state;
 return (
+  <div className="matrix">
       <div className="container matrix">
         <div className="row">
           <div className="col s8 offset-s2">
@@ -119,6 +120,8 @@ return (
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{
+                    backgroundColor: "black",
+                    color: "green",
                     width: "100px",
                     borderRadius: "1px",
                     letterSpacing: "1px",
@@ -133,6 +136,7 @@ return (
             </form>
           </div>
         </div>
+      </div>
       </div>
     );
   }
