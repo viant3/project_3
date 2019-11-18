@@ -54,7 +54,7 @@ return (
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+            <div className="col s12" style={{ paddingLeft: "11.250px", backgroundColor: "black", color: "light-gray" }}>
               <h4>
                 <b>Login below</b>
               </h4>
@@ -66,7 +66,7 @@ return (
                     letterSpacing: "1px",
                     marginTop: "1rem"
                   }}>
-                Don't have an account? <Link to="/register">Register</Link>
+                Don't have an account? <Link className="white-text" to="/register">Register</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>

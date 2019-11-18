@@ -61,7 +61,7 @@ return (
                 <b>Register below</b>
               </h4>
               <p className="white-text">
-                Already have an account? <Link to="/login" style={{ color: "white" }}>Log in</Link>
+                Already have an account? <Link to="/login" className="white-text">Log in</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
