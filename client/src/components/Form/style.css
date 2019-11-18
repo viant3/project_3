@@ -1,0 +1,7 @@
+button.btn {
+    background-color: #191970
+}
+
+button.btn:hover {
+    background-color: maroon;
+}
