@@ -43,28 +43,17 @@ return (
       <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" style={{
-                    backgroundColor: "black",
-                    color: "green",
-                    width: "100px",
-                    borderRadius: "1px",
-                    letterSpacing: "1px",
-                    marginTop: "1rem"
-                  }}>
+            <Link to="/" className="white-text">
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px", backgroundColor: "black", color: "light-gray" }}>
+            <div className="col s12" style={{ paddingLeft: "11.250px", backgroundColor: "black", color: "white" }}>
               <h4>
                 <b>Login below</b>
               </h4>
               <p style={{
                     backgroundColor: "black",
-                    color: "green",
-                    width: "100px",
-                    borderRadius: "1px",
-                    letterSpacing: "1px",
-                    marginTop: "1rem"
+                    color: "green"
                   }}>
                 Don't have an account? <Link className="white-text" to="/register">Register</Link>
               </p>
