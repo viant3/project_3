@@ -58,8 +58,15 @@ return (
               <h4>
                 <b>Login below</b>
               </h4>
-              <p className="-text text-darken-1">
-                Don't have an account? <Link to="/register" style={{color: "white"}}>Register</Link>
+              <p style={{
+                    backgroundColor: "black",
+                    color: "green",
+                    width: "100px",
+                    borderRadius: "1px",
+                    letterSpacing: "1px",
+                    marginTop: "1rem"
+                  }}>
+                Don't have an account? <Link to="/register">Register</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
