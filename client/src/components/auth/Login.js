@@ -39,8 +39,8 @@ this.props.loginUser(userData);
 render() {
     const { errors } = this.state;
 return (
-  <div className="matrix">
-      <div className="container matrix">
+  <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
+      <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
             <Link to="/" className="green">
@@ -101,7 +101,7 @@ return (
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="green"
+                  className="btn waves-effect waves-light hoverable "
                 >
                   Login
                 </button>

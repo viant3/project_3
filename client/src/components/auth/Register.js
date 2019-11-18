@@ -44,7 +44,7 @@ this.props.registerUser(newUser, this.props.history);
 render() {
     const { errors } = this.state;
 return (
-  <div className="matrix">
+  <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
       <div className="container matrix">
         <div className="row">
           <div className="col s8 offset-s2">
