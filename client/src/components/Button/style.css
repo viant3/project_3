@@ -1,3 +1,7 @@
 button.btn {
     background-color: #191970
 }
+
+button:hover {
+    background-color: maroon;
+}
