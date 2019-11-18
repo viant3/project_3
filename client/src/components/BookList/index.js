@@ -25,13 +25,12 @@ export function BookListItem({
         <div className="float-right">
           {!saved ? (
             <button
-              className="btn btn-success"
+              className="btn"
               onClick={event => clickEvent(event, googleId, title, authors, description, href, thumbnail)}>Save</button>
           ) : (
-              <button className="btn btn-danger" onClick={event => clickEvent(event, googleId)}>Unsave</button>
+              <button className="btn" onClick={event => clickEvent(event, googleId)}>Unsave</button>
             )
           }
-          <a className="btn btn-primary ml-2 mr-2" href={href} target="_blank" rel="noopener noreferrer">View</a>
         </div>
       }
 
