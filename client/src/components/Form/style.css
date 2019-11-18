@@ -5,3 +5,7 @@ button.btn {
 button.btn:hover {
     background-color: maroon;
 }
+
+.active {
+    background-color: #191970 
+}
