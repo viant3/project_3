@@ -55,16 +55,13 @@ return (
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4 style={{
                     backgroundColor: "black",
-                    color: "green",
-                    width: "100px",
-                    borderRadius: "1px",
-                    letterSpacing: "1px",
-                    marginTop: "1rem"
+                    color: "white",
+                   
                   }}>
                 <b>Register below</b>
               </h4>
-              <p className="white-text text-darken-1">
-                Already have an account? <Link to="/login">Log in</Link>
+              <p className="white-text">
+                Already have an account? <Link to="/login" style={{ color: "white" }}>Log in</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
