@@ -43,7 +43,14 @@ return (
       <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="green">
+            <Link to="/" style={{
+                    backgroundColor: "black",
+                    color: "green",
+                    width: "100px",
+                    borderRadius: "1px",
+                    letterSpacing: "1px",
+                    marginTop: "1rem"
+                  }}>
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
@@ -51,8 +58,8 @@ return (
               <h4>
                 <b>Login below</b>
               </h4>
-              <p className="green-text text-darken-1">
-                Don't have an account? <Link to="/register">Register</Link>
+              <p className="-text text-darken-1">
+                Don't have an account? <Link to="/register" style={{color: "white"}}>Register</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
