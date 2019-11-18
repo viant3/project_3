@@ -57,9 +57,6 @@ export function BookListItem({
             )
           }
           </Col>
-          <Col>
-            <a className="btn btn-primary btn-block" href={href} target="_blank" rel="noopener noreferrer">View</a>
-          </Col>
         </div>
       }
 
