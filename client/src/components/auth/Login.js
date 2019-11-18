@@ -43,7 +43,7 @@ return (
       <div className="container matrix">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="btn-flat waves-effect">
+            <Link to="/" className="green">
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
@@ -51,7 +51,7 @@ return (
               <h4>
                 <b>Login below</b>
               </h4>
-              <p className="grey-text text-darken-1">
+              <p className="green-text text-darken-1">
                 Don't have an account? <Link to="/register">Register</Link>
               </p>
             </div>
@@ -101,7 +101,7 @@ return (
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn waves-effect waves-light hoverable gray accent-3"
+                  className="green"
                 >
                   Login
                 </button>
