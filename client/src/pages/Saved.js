@@ -45,7 +45,7 @@ class Saved extends Component {
           <div className="col border border-rounded p-3 mb-4">
             <h4>Saved Documents</h4>
             {!this.state.savedBooks.length ? (
-              <h6 className="text-center">No books to display currently</h6>
+              <h6 className="text-center">Nothing has been saved</h6>
             ) : (
                 <BookList>
                   {this.state.savedBooks.map(book => {
