@@ -2,6 +2,10 @@
     background-image: url('https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif');
 }
 
+.code {
+    background-image: url("https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif");
+}
+
 .green , .green:hover {
     color: green;
 
