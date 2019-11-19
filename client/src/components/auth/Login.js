@@ -39,7 +39,7 @@ this.props.loginUser(userData);
 render() {
     const { errors } = this.state;
 return (
-  <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
+  <div style={{ height: "100vh", width: "150vw"}} className="container valign-wrapper matrix" >
       <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">

@@ -5,7 +5,7 @@ import "./style.css";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
+      <div style={{ height: "100vh", width: "150vw"}} className="container valign-wrapper matrix" >
         <div className="row">
           <div className="col s12 center-align">
             <br />
