@@ -8,7 +8,7 @@ import NSA from "../../pages/nsa.png"
 
 class Dashboard extends Component {
   onLogoutClick = e => {
-    e.preventDefault();
+    // e.preventDefault();
     this.props.logoutUser();
   };
 render() {
@@ -19,13 +19,13 @@ return (
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
            <Link
-                to="/"
+                to="/Register"
                 style={{
                   width: "140px",
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                // onClick={this.onLogoutClick}
+                onClick={this.onLogoutClick}
                 className="waves-effect waves-light hoverable gray accent-3"
                 >
                 Log Out
