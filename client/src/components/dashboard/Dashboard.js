@@ -19,7 +19,7 @@ return (
           <div className="col s12 center-align">
            <h6>HELLO, {user.name.split(" ")[0]}</h6>
            <Link
-                to="/Register"
+                to="/"
                 style={{
                   width: "140px",
                   borderRadius: "3px",
