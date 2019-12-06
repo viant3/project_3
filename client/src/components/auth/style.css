@@ -1,9 +1,9 @@
 .matrix {
-    background-image: url('https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif');
+    background-color: black;
 }
 
 .code {
-    background-image: url('https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif');
+    background-color: black;
 }
 
 .green , .green:hover {
