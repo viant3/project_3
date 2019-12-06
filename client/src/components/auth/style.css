@@ -1,12 +1,12 @@
 .matrix {
-    background-color: darkgray;
+    background-image: url('https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif');
 }
 
 .code {
-    background-color: darkgray;
+    background-image: url('https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif');
 }
 
 .green , .green:hover {
-    color: darkblue;
+    color: green;
 
 }

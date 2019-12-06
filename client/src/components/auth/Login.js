@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import classnames from "classnames";
-import NSA from "../../pages/nsa.png"
 import "./style.css";
 
 class Login extends Component {
@@ -49,7 +48,6 @@ return (
               home
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px", backgroundColor: "black", color: "white" }}>
-            <img src={NSA} className="img-fluid"  />
               <h4>
                 <b>Login below</b>
               </h4>

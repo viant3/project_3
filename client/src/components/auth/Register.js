@@ -54,7 +54,7 @@ return (
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4 style={{
-                    backgroundColor: "darkgray",
+                    backgroundColor: "black",
                     color: "white",
                    
                   }}>
@@ -124,8 +124,8 @@ return (
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{
-                    backgroundColor: "darkgray",
-                    color: "darkblue",
+                    backgroundColor: "black",
+                    color: "green",
                     width: "100px",
                     borderRadius: "1px",
                     letterSpacing: "1px",
