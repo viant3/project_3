@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+import NSA from "../../pages/nsa.png"
+
 class Landing extends Component {
   render() {
     return (
@@ -10,6 +12,7 @@ class Landing extends Component {
           <div className="col s12 center-align">
             <br />
             <div className="col s6">
+            <img src={NSA} className="img-fluid"  /><br />
               <Link
                 to="/register"
                 style={{
