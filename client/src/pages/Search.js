@@ -6,7 +6,6 @@ import API from "../utils/API";
 import Nav from "../components/Nav";
 import Dashboard from "../components/dashboard/Dashboard";
 import "./style.css";
-import NSA from "./nsa.png"
 
 
 class Search extends Component {
