@@ -1,3 +1,7 @@
 .matrix {
     background-color: black;
 }
+
+.cenDisplay {
+    display: inline;
+}
