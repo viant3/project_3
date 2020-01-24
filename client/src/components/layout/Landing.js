@@ -7,13 +7,11 @@ class Landing extends Component {
   render() {
     return (
       <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
-       <div className="row">
-          <div className="col-sm-12 center-align"><img src={NSA} alt="NSA" /></div>
-       </div>
         <div className="row">
-          <div className="col-sm-12 center-align">
+        <div className="col s12 center-align"><img src={NSA} alt="NSA" /></div>
+          <div className="col s12 center-align">
             <br />
-            <div className="col-sm-6">
+            <div className="col s6">
               <Link
                 to="/register"
                 style={{
@@ -26,7 +24,7 @@ class Landing extends Component {
                 Register
               </Link>
             </div>
-            <div className="col-sm-6">
+            <div className="col s6">
               <Link
                 to="/login"
                 style={{
