@@ -6,7 +6,7 @@ import NSA from "../../pages/nsa.png";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "100vh", width: "100vw"}} className="container valign-wrapper matrix" >
+      <div style={{ height: "100vh", width: "120vw"}} className="container valign-wrapper matrix" >
         <div className="row">
         <div className="col-sm-12 cenDisplay center-align"><img src={NSA} alt="NSA" /></div><br />
           <div className="col-sm-12 center-align">
