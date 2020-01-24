@@ -125,7 +125,7 @@ return (
                 <button
                   style={{
                     backgroundColor: "black",
-                    color: "green",
+                    color: "white",
                     width: "100px",
                     borderRadius: "1px",
                     letterSpacing: "1px",

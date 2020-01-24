@@ -53,7 +53,7 @@ return (
               </h4>
               <p style={{
                     backgroundColor: "black",
-                    color: "green"
+                    color: "white"
                   }}>
                 Don't have an account? <Link className="white-text" to="/register">Register</Link>
               </p>
@@ -97,7 +97,7 @@ return (
                 <button
                   style={{
                     backgroundColor: "black",
-                    color: "green",
+                    color: "white",
                     width: "100px",
                     borderRadius: "1px",
                     letterSpacing: "1px",
